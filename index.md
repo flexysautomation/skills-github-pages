@@ -1,6 +1,3 @@
-# Saving the provided markdown content to a .md file
-
-content = """
 # Flexys Automation
 
 Flexys Automation is dedicated to advancing the manufacturing sector through innovative automation solutions. With expertise in **PLC**, **DCS**, **SCADA**, and cutting-edge **Industry 4.0** technologies, we help manufacturers integrate advanced control systems to drive smarter operations and improve efficiency.
@@ -47,10 +44,3 @@ Interested in learning more about how Flexys Automation can help transform your 
 - **Website**: [www.flexysautomation.com](http://www.flexysautomation.com)
 
 Let's work together to bring innovation to your manufacturing processes!
-"""
-
-file_path = "/mnt/data/Flexys_Automation.md"
-with open(file_path, "w") as file:
-    file.write(content)
-
-file_path
